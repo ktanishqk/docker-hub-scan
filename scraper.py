@@ -1,12 +1,11 @@
 import re
 import csv
 import time
+import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
 
@@ -20,34 +19,46 @@ chrome_options.add_argument("--disable-extensions")
 chrome_options.add_argument("--proxy-server='direct://'")
 driver = webdriver.Chrome(service=Service('./chromedriver-mac-arm64/chromedriver'))
 
-
 # Prepare the CSV file
-# csv_file = open('results.csv', 'a', newline='', encoding='utf-8')
-# csv_writer = csv.writer(csv_file)
+csv_file = open('results.csv', 'a', newline='', encoding='utf-8')
+csv_writer = csv.writer(csv_file)
 
 # Write headers only if the file is empty
-# if csv_file.tell() == 0:
-    # csv_writer.writerow(['Image Name', 'Description', 'Pulls', 'Stars Count', 'Tags', 'By', 'Last Updated', 'Official Status'])
+if csv_file.tell() == 0:
+    csv_writer.writerow(['Image Name', 'Description', 'Pulls', 'Stars Count', 'Tags', 'By', 'Last Updated', 'Official Status'])
 
 # Start pagination
 page = 1
 while True:
     try:
+        start_time = datetime.datetime.now()
+        print(f"Loading page {page}...")
+        
         # Load the Docker Hub HTML page
         driver.get(f"https://hub.docker.com/search?q=&type=image&page={page}")
         time.sleep(60)  # Wait for page contents to load
-        print("time over")
+        print("Page load complete. Time over")
+        
+        load_end_time = datetime.datetime.now()
+        print(f"Page {page} load took: {load_end_time - start_time}")
+        
         if page > 9:
             # Scroll to the bottom to trigger dynamic content loading
+            scroll_start_time = datetime.datetime.now()
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(2)  # Wait for content to load
+            scroll_end_time = datetime.datetime.now()
+            print(f"Scrolling page {page} took: {scroll_end_time - scroll_start_time}")
             
             # After the page loads
             with open(f"page_{page}.html", "w", encoding="utf-8") as f:
                 f.write(driver.page_source)
 
         # Parse the page with BeautifulSoup
+        parse_start_time = datetime.datetime.now()
         soup = BeautifulSoup(driver.page_source, 'html.parser')
+        parse_end_time = datetime.datetime.now()
+        print(f"Parsing page {page} took: {parse_end_time - parse_start_time}")
 
         # Find all image cards
         images_list = soup.find_all('a', attrs={'data-testid': 'imageSearchResult'})
@@ -58,6 +69,8 @@ while True:
         # Process each image
         for image in images_list:
             try:
+                image_start_time = datetime.datetime.now()
+                
                 # Extract image name
                 image_name_element = image.find('strong', attrs={'data-testid': 'product-title'})
                 image_name = image_name_element.text.strip() if image_name_element else 'N/A'
@@ -94,6 +107,9 @@ while True:
                 # Check for official status
                 official_status = 'Official' if image.find('svg', attrs={'data-testid': 'official-icon'}) else 'Not Official'
 
+                image_end_time = datetime.datetime.now()
+                print(f"Processing image took: {image_end_time - image_start_time}")
+
                 # Write the extracted data to the CSV file
                 # csv_writer.writerow([image_name, description, pulls, stars_count, ', '.join(tags), by, last_updated, official_status])
 
@@ -118,7 +134,7 @@ while True:
     page += 1
 
 # Close the CSV file
-# csv_file.close()
+csv_file.close()
 
 # Quit the WebDriver
 driver.quit()
