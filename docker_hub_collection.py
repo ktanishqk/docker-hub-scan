@@ -18,7 +18,7 @@ def get_auth_token(username, password):
 
 # Step 2: Get all repositories in a namespace
 def get_all_repositories(namespace, token):
-    url = f"{DOCKER_HUB_BASE_URL}/v2/namespaces/{namespace}/repositories?page_size=100"
+    url = f"{DOCKER_HUB_BASE_URL}/v2/repositories/{namespace}?page_size=100"
     headers = {"Authorization": f"Bearer {token}"}
     repositories = []
     
@@ -33,7 +33,7 @@ def get_all_repositories(namespace, token):
 
 # Step 3: Get repository information
 def get_repository_details(namespace, repository, token):
-    url = f"{DOCKER_HUB_BASE_URL}/v2/namespaces/{namespace}/repositories/{repository}"
+    url = f"{DOCKER_HUB_BASE_URL}/v2/repositories/{namespace}/{repository}"
     headers = {"Authorization": f"Bearer {token}"}
     response = requests.get(url, headers=headers)
     response.raise_for_status()
@@ -41,7 +41,7 @@ def get_repository_details(namespace, repository, token):
 
 # Step 4: Get repository tags
 def get_repository_tags(namespace, repository, token):
-    url = f"{DOCKER_HUB_BASE_URL}/v2/namespaces/{namespace}/repositories/{repository}/tags"
+    url = f"{DOCKER_HUB_BASE_URL}/v2/repositories/{namespace}/{repository}/tags"
     headers = {"Authorization": f"Bearer {token}"}
     response = requests.get(url, headers=headers)
     response.raise_for_status()
@@ -60,7 +60,7 @@ def collect_repository_data(namespace, repository, token):
         "Tags": [tag.get("name") for tag in tags],
         "By": repo_details.get("namespace"),
         "Last Updated": repo_details.get("last_updated"),
-        "Official Status": "Official" if repo_details.get("is_organization") else "Community",
+        "Official Status": "Official" if repo_details.get("is_official") else "Community",
     }
     return collected_data
 

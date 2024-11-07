@@ -2,7 +2,7 @@
   {
     "Image Name": "centos",
     "Description": "DEPRECATED; The official build of CentOS.",
-    "Pulls": 1163403531,
+    "Pulls": 1163465696,
     "Stars Count": 7755,
     "Tags": [
       "latest",
@@ -23,8 +23,8 @@
   {
     "Image Name": "busybox",
     "Description": "Busybox base image.",
-    "Pulls": 11703125056,
-    "Stars Count": 3339,
+    "Pulls": 11704187171,
+    "Stars Count": 3340,
     "Tags": [
       "unstable-uclibc",
       "unstable-glibc",
@@ -44,8 +44,8 @@
   {
     "Image Name": "ubuntu",
     "Description": "Ubuntu is a Debian-based Linux operating system based on free software.",
-    "Pulls": 9445125434,
-    "Stars Count": 17353,
+    "Pulls": 9445711229,
+    "Stars Count": 17355,
     "Tags": [
       "latest",
       "rolling",
@@ -75,8 +75,8 @@
   {
     "Image Name": "fedora",
     "Description": "Official Docker builds of Fedora",
-    "Pulls": 122396469,
-    "Stars Count": 1223,
+    "Pulls": 122410455,
+    "Stars Count": 1224,
     "Tags": [
       "latest",
       "rawhide",
@@ -96,8 +96,8 @@
   {
     "Image Name": "registry",
     "Description": "Distribution implementation for storing and distributing of container images and artifacts",
-    "Pulls": 1674964199,
-    "Stars Count": 4060,
+    "Pulls": 1675078520,
+    "Stars Count": 4062,
     "Tags": [
       "latest",
       "3.0.0-beta.1",
@@ -117,7 +117,7 @@
   {
     "Image Name": "hipache",
     "Description": "DEPRECATED (upstream); use \"traefik\", \"nginx\", \"haproxy\", \"httpd\" instead",
-    "Pulls": 436667,
+    "Pulls": 436676,
     "Stars Count": 85,
     "Tags": [
       "latest",
@@ -132,7 +132,7 @@
   {
     "Image Name": "docker-dev",
     "Description": "DEPRECATED; use https://github.com/moby/moby/blob/master/Dockerfile",
-    "Pulls": 2590850,
+    "Pulls": 2590858,
     "Stars Count": 105,
     "Tags": [
       "1",
@@ -153,8 +153,8 @@
   {
     "Image Name": "debian",
     "Description": "Debian is a Linux distribution that's composed entirely of free and open-source software.",
-    "Pulls": 1312984706,
-    "Stars Count": 5103,
+    "Pulls": 1313209819,
+    "Stars Count": 5104,
     "Tags": [
       "unstable-slim",
       "unstable-20241016-slim",
@@ -174,7 +174,7 @@
   {
     "Image Name": "cirros",
     "Description": "CirrOS is a Tiny OS that specializes in running on a cloud.",
-    "Pulls": 6790673,
+    "Pulls": 6791042,
     "Stars Count": 78,
     "Tags": [
       "latest",
@@ -195,7 +195,7 @@
   {
     "Image Name": "crux",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 875468,
+    "Pulls": 875480,
     "Stars Count": 40,
     "Tags": [
       "latest",
@@ -211,7 +211,7 @@
   {
     "Image Name": "ubuntu-upstart",
     "Description": "DEPRECATED, as is Upstart (find other process supervisor!)",
-    "Pulls": 1810677,
+    "Pulls": 1810708,
     "Stars Count": 115,
     "Tags": [
       "latest",
@@ -232,7 +232,7 @@
   {
     "Image Name": "buildpack-deps",
     "Description": "A collection of common build dependencies used for installing various modules, e.g., gems.",
-    "Pulls": 236678193,
+    "Pulls": 236700101,
     "Stars Count": 675,
     "Tags": [
       "oracular",
@@ -253,8 +253,8 @@
   {
     "Image Name": "nginx",
     "Description": "Official build of Nginx.",
-    "Pulls": 12044552160,
-    "Stars Count": 20336,
+    "Pulls": 12045822787,
+    "Stars Count": 20339,
     "Tags": [
       "stable-perl",
       "stable-bookworm-perl",
@@ -274,7 +274,7 @@
   {
     "Image Name": "node",
     "Description": "Node.js is a JavaScript-based platform for server-side and networking applications.",
-    "Pulls": 5414648289,
+    "Pulls": 5416104620,
     "Stars Count": 13701,
     "Tags": [
       "lts-slim",
@@ -295,28 +295,28 @@
   {
     "Image Name": "mysql",
     "Description": "MySQL is a widely used, open-source relational database management system (RDBMS).",
-    "Pulls": 4456694478,
-    "Stars Count": 15473,
+    "Pulls": 4457315064,
+    "Stars Count": 15475,
     "Tags": [
       "latest",
-      "8.0.40-debian",
-      "8.0.40-bookworm",
-      "8.0-debian",
-      "8.0-bookworm",
       "oraclelinux9",
       "oracle",
       "lts-oraclelinux9",
       "lts-oracle",
-      "lts"
+      "lts",
+      "innovation-oraclelinux9",
+      "innovation-oracle",
+      "innovation",
+      "9.1.0-oraclelinux9"
     ],
     "By": "library",
-    "Last Updated": "2024-10-17T06:02:21.429734Z",
+    "Last Updated": "2024-11-07T01:03:05.793722Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "wordpress",
     "Description": "The WordPress rich content management system can utilize plugins, widgets, and themes.",
-    "Pulls": 1398858937,
+    "Pulls": 1398952470,
     "Stars Count": 5687,
     "Tags": [
       "beta-php8.3-fpm-alpine",
@@ -337,8 +337,8 @@
   {
     "Image Name": "postgres",
     "Description": "The PostgreSQL object-relational database system provides reliability and data integrity.",
-    "Pulls": 9257633514,
-    "Stars Count": 13888,
+    "Pulls": 9259444002,
+    "Stars Count": 13889,
     "Tags": [
       "13.16-bookworm",
       "13.16",
@@ -358,7 +358,7 @@
   {
     "Image Name": "redis",
     "Description": "Redis is the world\u2019s fastest data platform for caching, vector search, and NoSQL databases.",
-    "Pulls": 9321396497,
+    "Pulls": 9323226916,
     "Stars Count": 13066,
     "Tags": [
       "latest",
@@ -379,7 +379,7 @@
   {
     "Image Name": "java",
     "Description": "DEPRECATED; use \"openjdk\" (or other JDK implementations) instead",
-    "Pulls": 142746059,
+    "Pulls": 142746403,
     "Stars Count": 2008,
     "Tags": [
       "6",
@@ -400,7 +400,7 @@
   {
     "Image Name": "mongo",
     "Description": "MongoDB document databases provide high availability and easy scalability.",
-    "Pulls": 4496925956,
+    "Pulls": 4497429815,
     "Stars Count": 10416,
     "Tags": [
       "latest",
@@ -421,7 +421,7 @@
   {
     "Image Name": "rails",
     "Description": "DEPRECATED; use \"ruby\" instead",
-    "Pulls": 8952674,
+    "Pulls": 8952721,
     "Stars Count": 907,
     "Tags": [
       "latest",
@@ -442,7 +442,7 @@
   {
     "Image Name": "ruby",
     "Description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.",
-    "Pulls": 1463401000,
+    "Pulls": 1463574750,
     "Stars Count": 2348,
     "Tags": [
       "latest",
@@ -463,8 +463,8 @@
   {
     "Image Name": "python",
     "Description": "Python is an interpreted, interactive, object-oriented, open-source programming language.",
-    "Pulls": 7781265497,
-    "Stars Count": 9872,
+    "Pulls": 7782555078,
+    "Stars Count": 9873,
     "Tags": [
       "latest",
       "3.9.20-bullseye",
@@ -484,7 +484,7 @@
   {
     "Image Name": "ubuntu-debootstrap",
     "Description": "DEPRECATED; use \"ubuntu\" instead",
-    "Pulls": 8941792,
+    "Pulls": 8941801,
     "Stars Count": 52,
     "Tags": [
       "latest",
@@ -505,7 +505,7 @@
   {
     "Image Name": "perl",
     "Description": "Perl is a high-level, general-purpose, interpreted, dynamic programming language.",
-    "Pulls": 242167310,
+    "Pulls": 242186787,
     "Stars Count": 464,
     "Tags": [
       "5.41-slim-threaded",
@@ -526,8 +526,8 @@
   {
     "Image Name": "hello-world",
     "Description": "Hello World! (an example of minimal Dockerization)",
-    "Pulls": 3095403673,
-    "Stars Count": 2344,
+    "Pulls": 3095689726,
+    "Stars Count": 2346,
     "Tags": [
       "latest",
       "nanoserver-ltsc2022",
@@ -546,7 +546,7 @@
   {
     "Image Name": "hylang",
     "Description": "Hy is a Lisp dialect that translates expressions into Python's abstract syntax tree.",
-    "Pulls": 26070288,
+    "Pulls": 26071022,
     "Stars Count": 60,
     "Tags": [
       "1.0.0-python3.9-bookworm",
@@ -567,7 +567,7 @@
   {
     "Image Name": "gcc",
     "Description": "The GNU Compiler Collection is a compiling system that supports several languages.",
-    "Pulls": 24551949,
+    "Pulls": 24555576,
     "Stars Count": 864,
     "Tags": [
       "latest",
@@ -588,7 +588,7 @@
   {
     "Image Name": "jenkins",
     "Description": "DEPRECATED; use \"jenkins/jenkins:lts\" instead",
-    "Pulls": 149154603,
+    "Pulls": 149155211,
     "Stars Count": 5696,
     "Tags": [
       "2.60.3",
@@ -619,8 +619,8 @@
   {
     "Image Name": "golang",
     "Description": "Go (golang) is a general purpose, higher-level, imperative programming language.",
-    "Pulls": 2258907506,
-    "Stars Count": 4956,
+    "Pulls": 2259349776,
+    "Stars Count": 4957,
     "Tags": [
       "latest",
       "bullseye",
@@ -640,7 +640,7 @@
   {
     "Image Name": "neurodebian",
     "Description": "NeuroDebian provides neuroscience research software for Debian, Ubuntu, and other derivatives.",
-    "Pulls": 9954797,
+    "Pulls": 9955111,
     "Stars Count": 113,
     "Tags": [
       "trixie-non-free",
@@ -661,7 +661,7 @@
   {
     "Image Name": "clojure",
     "Description": "Clojure is a dialect of Lisp that runs on the JVM.",
-    "Pulls": 37568899,
+    "Pulls": 37574443,
     "Stars Count": 360,
     "Tags": [
       "tools-deps-bullseye-slim",
@@ -682,7 +682,7 @@
   {
     "Image Name": "php",
     "Description": "While designed for web development, the PHP scripting language also provides general-purpose use.",
-    "Pulls": 1203300970,
+    "Pulls": 1203460991,
     "Stars Count": 7632,
     "Tags": [
       "8.2.25-cli-alpine3.20",
@@ -703,7 +703,7 @@
   {
     "Image Name": "jruby",
     "Description": "JRuby (http://www.jruby.org) is an implementation of Ruby (http://www.ruby-lang.org) on the JVM.",
-    "Pulls": 50688400,
+    "Pulls": 50689720,
     "Stars Count": 118,
     "Tags": [
       "latest",
@@ -724,7 +724,7 @@
   {
     "Image Name": "mageia",
     "Description": "Official Mageia base image",
-    "Pulls": 1640417,
+    "Pulls": 1640576,
     "Stars Count": 44,
     "Tags": [
       "latest",
@@ -745,7 +745,7 @@
   {
     "Image Name": "crate",
     "Description": "CrateDB is an open-source, distributed SQL database empowering you to turn data into business value.",
-    "Pulls": 18720078,
+    "Pulls": 18720624,
     "Stars Count": 225,
     "Tags": [
       "latest",
@@ -766,7 +766,7 @@
   {
     "Image Name": "php-zendserver",
     "Description": "DEPRECATED; Zend Server - the integrated PHP application platform for mobile and web apps.",
-    "Pulls": 4289791,
+    "Pulls": 4289837,
     "Stars Count": 213,
     "Tags": [
       "latest",
@@ -787,7 +787,7 @@
   {
     "Image Name": "tomcat",
     "Description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies",
-    "Pulls": 781740702,
+    "Pulls": 781786809,
     "Stars Count": 3699,
     "Tags": [
       "jre21-temurin-noble",
@@ -808,7 +808,7 @@
   {
     "Image Name": "mono",
     "Description": "DEPRECATED; Mono is an open source implementation of Microsoft's .NET Framework",
-    "Pulls": 43131860,
+    "Pulls": 43132595,
     "Stars Count": 522,
     "Tags": [
       "latest",
@@ -829,7 +829,7 @@
   {
     "Image Name": "haskell",
     "Description": "Haskell is an advanced purely-functional programming language.",
-    "Pulls": 8035541,
+    "Pulls": 8035949,
     "Stars Count": 484,
     "Tags": [
       "latest",
@@ -850,7 +850,7 @@
   {
     "Image Name": "glassfish",
     "Description": "DEPRECATED; abandoned by the maintainer",
-    "Pulls": 1262127,
+    "Pulls": 1262171,
     "Stars Count": 158,
     "Tags": [
       "latest",
@@ -866,7 +866,7 @@
   {
     "Image Name": "maven",
     "Description": "Apache Maven is a software project management and comprehension tool.",
-    "Pulls": 679210402,
+    "Pulls": 679324637,
     "Stars Count": 1606,
     "Tags": [
       "3.9.9-ibm-semeru-23-jammy",
@@ -887,8 +887,8 @@
   {
     "Image Name": "httpd",
     "Description": "The Apache HTTP Server Project",
-    "Pulls": 4554154423,
-    "Stars Count": 4808,
+    "Pulls": 4554431059,
+    "Stars Count": 4809,
     "Tags": [
       "latest",
       "bookworm",
@@ -908,7 +908,7 @@
   {
     "Image Name": "sentry",
     "Description": "DEPRECATED; https://develop.sentry.dev/self-hosted/",
-    "Pulls": 122509646,
+    "Pulls": 122512116,
     "Stars Count": 657,
     "Tags": [
       "latest",
@@ -929,7 +929,7 @@
   {
     "Image Name": "r-base",
     "Description": "R is a system for statistical computation and graphics.",
-    "Pulls": 10243976,
+    "Pulls": 10245249,
     "Stars Count": 540,
     "Tags": [
       "latest",
@@ -950,7 +950,7 @@
   {
     "Image Name": "mariadb",
     "Description": "MariaDB Server is a high performing open source relational database, forked from MySQL.",
-    "Pulls": 2858688581,
+    "Pulls": 2858911707,
     "Stars Count": 5874,
     "Tags": [
       "latest",
@@ -971,7 +971,7 @@
   {
     "Image Name": "thrift",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 3018849,
+    "Pulls": 3018877,
     "Stars Count": 122,
     "Tags": [
       "latest",
@@ -992,7 +992,7 @@
   {
     "Image Name": "pypy",
     "Description": "PyPy is a fast, compliant alternative implementation of the Python language.",
-    "Pulls": 40424369,
+    "Pulls": 40425827,
     "Stars Count": 392,
     "Tags": [
       "latest",
@@ -1013,7 +1013,7 @@
   {
     "Image Name": "django",
     "Description": "DEPRECATED; use \"python\" instead",
-    "Pulls": 22989577,
+    "Pulls": 22989882,
     "Stars Count": 1219,
     "Tags": [
       "latest",
@@ -1034,8 +1034,8 @@
   {
     "Image Name": "haproxy",
     "Description": "HAProxy - The Reliable, High Performance TCP/HTTP Load Balancer",
-    "Pulls": 1087860533,
-    "Stars Count": 1949,
+    "Pulls": 1087900461,
+    "Stars Count": 1950,
     "Tags": [
       "3.1-dev11-bookworm",
       "3.1-dev11-alpine3.20",
@@ -1055,8 +1055,8 @@
   {
     "Image Name": "memcached",
     "Description": "Free & open source, high-performance, distributed memory object caching system.",
-    "Pulls": 12386539480,
-    "Stars Count": 2256,
+    "Pulls": 12387699833,
+    "Stars Count": 2257,
     "Tags": [
       "latest",
       "bookworm",
@@ -1076,7 +1076,7 @@
   {
     "Image Name": "rabbitmq",
     "Description": "RabbitMQ is an open source multi-protocol messaging broker.",
-    "Pulls": 3610448137,
+    "Pulls": 3610814078,
     "Stars Count": 5164,
     "Tags": [
       "management-alpine",
@@ -1097,9 +1097,11 @@
   {
     "Image Name": "oraclelinux",
     "Description": "Official Docker builds of Oracle Linux.",
-    "Pulls": 36872709,
+    "Pulls": 36880372,
     "Stars Count": 1071,
     "Tags": [
+      "9-slim-fips",
+      "9-slim",
       "9",
       "7.9",
       "7-slim-fips",
@@ -1107,19 +1109,17 @@
       "7",
       "8.10",
       "8-slim-fips",
-      "8-slim",
-      "8",
-      "9-slim-fips"
+      "8-slim"
     ],
     "By": "library",
-    "Last Updated": "2024-10-26T00:36:23.986137Z",
+    "Last Updated": "2024-11-06T22:36:34.638711Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "odoo",
     "Description": "Odoo (formerly known as OpenERP) is a suite of open-source business apps.",
-    "Pulls": 42477055,
-    "Stars Count": 1389,
+    "Pulls": 42487402,
+    "Stars Count": 1390,
     "Tags": [
       "latest",
       "16.0-20241029",
@@ -1139,7 +1139,7 @@
   {
     "Image Name": "rethinkdb",
     "Description": "RethinkDB is an open-source, document database that makes it easy to build and scale realtime apps.",
-    "Pulls": 75804784,
+    "Pulls": 75806829,
     "Stars Count": 633,
     "Tags": [
       "latest",
@@ -1160,7 +1160,7 @@
   {
     "Image Name": "iojs",
     "Description": "DEPRECATED; use \"node\" instead",
-    "Pulls": 17356454,
+    "Pulls": 17356465,
     "Stars Count": 143,
     "Tags": [
       "latest",
@@ -1181,28 +1181,28 @@
   {
     "Image Name": "websphere-liberty",
     "Description": "WebSphere Liberty multi-architecture images based on Ubuntu",
-    "Pulls": 24121765,
+    "Pulls": 24124249,
     "Stars Count": 301,
     "Tags": [
+      "latest",
+      "kernel-java8-ibmjava",
+      "kernel-java17-openj9",
+      "kernel-java11-openj9",
+      "kernel",
+      "full-java8-ibmjava",
       "full-java17-openj9",
       "full-java11-openj9",
-      "24.0.0.9-kernel-java17-openj9",
-      "24.0.0.9-kernel-java11-openj9",
-      "24.0.0.9-full-java17-openj9",
-      "24.0.0.9-full-java11-openj9",
-      "24.0.0.6-full-java17-openj9",
-      "24.0.0.6-full-java11-openj9",
-      "24.0.0.10-full-java17-openj9",
-      "24.0.0.10-full-java11-openj9"
+      "full",
+      "24.0.0.9-kernel-java8-ibmjava"
     ],
     "By": "library",
-    "Last Updated": "2024-11-05T07:21:54.26019Z",
+    "Last Updated": "2024-11-07T01:23:42.445397Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "irssi",
     "Description": "irssi - The IRC client of the future",
-    "Pulls": 8334024,
+    "Pulls": 8334939,
     "Stars Count": 175,
     "Tags": [
       "latest",
@@ -1223,7 +1223,7 @@
   {
     "Image Name": "swarm",
     "Description": "DEPRECATED; use \"docker swarm init\" instead",
-    "Pulls": 82914924,
+    "Pulls": 82915715,
     "Stars Count": 1126,
     "Tags": [
       "latest",
@@ -1244,7 +1244,7 @@
   {
     "Image Name": "elasticsearch",
     "Description": "Elasticsearch is a powerful open source search and analytics engine that makes data easy to explore.",
-    "Pulls": 887643177,
+    "Pulls": 887784853,
     "Stars Count": 6439,
     "Tags": [
       "7.17.25",
@@ -1265,7 +1265,7 @@
   {
     "Image Name": "jetty",
     "Description": "Jetty provides a Web server and javax.servlet container.",
-    "Pulls": 40356689,
+    "Pulls": 40358727,
     "Stars Count": 408,
     "Tags": [
       "latest",
@@ -1286,7 +1286,7 @@
   {
     "Image Name": "ghost",
     "Description": "Publish by web and email newsletter, with member signups and subscription payments.",
-    "Pulls": 365500339,
+    "Pulls": 365516477,
     "Stars Count": 1746,
     "Tags": [
       "latest",
@@ -1307,7 +1307,7 @@
   {
     "Image Name": "celery",
     "Description": "DEPRECATED; use \"python\" instead",
-    "Pulls": 3511293,
+    "Pulls": 3511506,
     "Stars Count": 318,
     "Tags": [
       "latest",
@@ -1328,7 +1328,7 @@
   {
     "Image Name": "percona",
     "Description": "Percona Server is a fork of the MySQL relational database management system created by Percona.",
-    "Pulls": 188577958,
+    "Pulls": 188671915,
     "Stars Count": 634,
     "Tags": [
       "ps-8.0.36-28",
@@ -1349,7 +1349,7 @@
   {
     "Image Name": "aerospike",
     "Description": "Aerospike \u2013 the reliable, high performance, distributed database optimized for flash and RAM.",
-    "Pulls": 18217202,
+    "Pulls": 18218707,
     "Stars Count": 145,
     "Tags": [
       "ee-7.2.0.3_1",
@@ -1370,7 +1370,7 @@
   {
     "Image Name": "logstash",
     "Description": "Logstash is a tool for managing events and logs.",
-    "Pulls": 196108860,
+    "Pulls": 196116576,
     "Stars Count": 2221,
     "Tags": [
       "7.17.25",
@@ -1391,7 +1391,7 @@
   {
     "Image Name": "julia",
     "Description": "Julia is a high-level, high-performance dynamic programming language for technical computing.",
-    "Pulls": 15412528,
+    "Pulls": 15414484,
     "Stars Count": 336,
     "Tags": [
       "1.10.6-windowsservercore-ltsc2022",
@@ -1412,8 +1412,8 @@
   {
     "Image Name": "alpine",
     "Description": "A minimal Docker image based on Alpine Linux with a complete package index and only 5 MB in size!",
-    "Pulls": 10783068353,
-    "Stars Count": 11069,
+    "Pulls": 10784549493,
+    "Stars Count": 11072,
     "Tags": [
       "latest",
       "edge",
@@ -1433,7 +1433,7 @@
   {
     "Image Name": "rakudo-star",
     "Description": "Rakudo is a compiler for the Raku programming language.",
-    "Pulls": 2498938,
+    "Pulls": 2499059,
     "Stars Count": 60,
     "Tags": [
       "latest",
@@ -1454,7 +1454,7 @@
   {
     "Image Name": "drupal",
     "Description": "Drupal is an open source content management platform powering millions of websites and applications.",
-    "Pulls": 197110955,
+    "Pulls": 197116691,
     "Stars Count": 1055,
     "Tags": [
       "php8.3-fpm-bullseye",
@@ -1475,7 +1475,7 @@
   {
     "Image Name": "cassandra",
     "Description": "Apache Cassandra is an open-source distributed storage system.",
-    "Pulls": 216505261,
+    "Pulls": 216535962,
     "Stars Count": 1561,
     "Tags": [
       "latest",
@@ -1496,8 +1496,8 @@
   {
     "Image Name": "sonarqube",
     "Description": "SonarQube is an open source platform for continuous inspection of code quality.",
-    "Pulls": 1123992085,
-    "Stars Count": 2445,
+    "Pulls": 1124049648,
+    "Stars Count": 2446,
     "Tags": [
       "latest",
       "lts-enterprise",
@@ -1517,7 +1517,7 @@
   {
     "Image Name": "couchbase",
     "Description": "Couchbase Server is a NoSQL document database with a distributed architecture.",
-    "Pulls": 87184910,
+    "Pulls": 87187524,
     "Stars Count": 923,
     "Tags": [
       "enterprise-7.2.6",
@@ -1538,7 +1538,7 @@
   {
     "Image Name": "ros",
     "Description": "The Robot Operating System (ROS) is an open source project for building robot applications.",
-    "Pulls": 28073000,
+    "Pulls": 28078661,
     "Stars Count": 661,
     "Tags": [
       "rolling-ros-core-noble",
@@ -1559,7 +1559,7 @@
   {
     "Image Name": "kibana",
     "Description": "Kibana gives shape to any kind of data \u2014 structured and unstructured \u2014 indexed in Elasticsearch.",
-    "Pulls": 217939861,
+    "Pulls": 217950237,
     "Stars Count": 2763,
     "Tags": [
       "7.17.25",
@@ -1580,7 +1580,7 @@
   {
     "Image Name": "kaazing-gateway",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 2072331,
+    "Pulls": 2072506,
     "Stars Count": 65,
     "Tags": [
       "latest",
@@ -1601,28 +1601,28 @@
   {
     "Image Name": "arangodb",
     "Description": "ArangoDB - a scalable graph database system to drive value from connected data, faster.",
-    "Pulls": 36916600,
+    "Pulls": 36918704,
     "Stars Count": 292,
     "Tags": [
       "latest",
+      "3.11.12",
+      "3.11",
       "3.12.3",
       "3.12",
       "3.11.11",
-      "3.11",
       "3.12.2",
       "3.11.10.1",
       "3.12.1",
-      "3.12.0.2",
-      "3.11.10"
+      "3.12.0.2"
     ],
     "By": "library",
-    "Last Updated": "2024-10-30T21:13:20.939236Z",
+    "Last Updated": "2024-11-06T22:13:17.778376Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "owncloud",
     "Description": "DEPRECATED; use \"owncloud/server\" instead",
-    "Pulls": 56950413,
+    "Pulls": 56950901,
     "Stars Count": 1390,
     "Tags": [
       "9-fpm",
@@ -1643,7 +1643,7 @@
   {
     "Image Name": "gazebo",
     "Description": "Gazebo is an open source project for simulating robots, offering robust physics and rendering.",
-    "Pulls": 4464996,
+    "Pulls": 4465098,
     "Stars Count": 144,
     "Tags": [
       "latest",
@@ -1664,7 +1664,7 @@
   {
     "Image Name": "joomla",
     "Description": "Joomla! is an open source content management system.",
-    "Pulls": 83807081,
+    "Pulls": 83808535,
     "Stars Count": 450,
     "Tags": [
       "5.2-php8.3-fpm-alpine",
@@ -1685,7 +1685,7 @@
   {
     "Image Name": "redmine",
     "Description": "Redmine is a flexible project management web application written using Ruby on Rails framework",
-    "Pulls": 69474643,
+    "Pulls": 69480064,
     "Stars Count": 1214,
     "Tags": [
       "latest",
@@ -1706,7 +1706,7 @@
   {
     "Image Name": "nats",
     "Description": "NATS is an open-source, high-performance, cloud native messaging system.",
-    "Pulls": 206606408,
+    "Pulls": 206640059,
     "Stars Count": 495,
     "Tags": [
       "latest",
@@ -1727,7 +1727,7 @@
   {
     "Image Name": "rocket.chat",
     "Description": "The Complete Open Source Chat Solution",
-    "Pulls": 74547100,
+    "Pulls": 74549752,
     "Stars Count": 826,
     "Tags": [
       "latest",
@@ -1748,8 +1748,8 @@
   {
     "Image Name": "docker",
     "Description": "Docker in Docker!",
-    "Pulls": 3150322395,
-    "Stars Count": 2648,
+    "Pulls": 3150985338,
+    "Stars Count": 2649,
     "Tags": [
       "latest",
       "dind-rootless",
@@ -1769,7 +1769,7 @@
   {
     "Image Name": "tomee",
     "Description": "Apache TomEE is an all-Apache Java EE certified stack where Apache Tomcat is top dog.",
-    "Pulls": 24452432,
+    "Pulls": 24453694,
     "Stars Count": 117,
     "Tags": [
       "jre17-Semeru-webprofile",
@@ -1790,7 +1790,7 @@
   {
     "Image Name": "sourcemage",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 651788,
+    "Pulls": 651798,
     "Stars Count": 49,
     "Tags": [
       "latest",
@@ -1804,7 +1804,7 @@
   {
     "Image Name": "bonita",
     "Description": "Bonita is an open-source business process management and workflow suite",
-    "Pulls": 12658714,
+    "Pulls": 12659685,
     "Stars Count": 187,
     "Tags": [
       "latest",
@@ -1825,7 +1825,7 @@
   {
     "Image Name": "solr",
     "Description": "Solr is the blazing-fast, open source, multi-modal search platform built on Apache Lucene.",
-    "Pulls": 344256451,
+    "Pulls": 344270869,
     "Stars Count": 998,
     "Tags": [
       "latest",
@@ -1846,7 +1846,7 @@
   {
     "Image Name": "neo4j",
     "Description": "Neo4j is a highly scalable, robust native graph database.",
-    "Pulls": 288954199,
+    "Pulls": 288980927,
     "Stars Count": 1269,
     "Tags": [
       "latest",
@@ -1867,7 +1867,7 @@
   {
     "Image Name": "erlang",
     "Description": "Erlang is a programming language used to build massively scalable systems with high availability.",
-    "Pulls": 62569511,
+    "Pulls": 62572226,
     "Stars Count": 366,
     "Tags": [
       "latest",
@@ -1888,7 +1888,7 @@
   {
     "Image Name": "nuxeo",
     "Description": "DEPRECATED; contact Nuxeo for support/updates",
-    "Pulls": 5072209,
+    "Pulls": 5072267,
     "Stars Count": 95,
     "Tags": [
       "latest",
@@ -1909,8 +1909,8 @@
   {
     "Image Name": "photon",
     "Description": "Photon OS is an open source minimal Linux container host.",
-    "Pulls": 17475019,
-    "Stars Count": 196,
+    "Pulls": 17476687,
+    "Stars Count": 197,
     "Tags": [
       "latest",
       "5.0-20241023",
@@ -1930,7 +1930,7 @@
   {
     "Image Name": "couchdb",
     "Description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.",
-    "Pulls": 191850161,
+    "Pulls": 191861730,
     "Stars Count": 569,
     "Tags": [
       "latest",
@@ -1951,7 +1951,7 @@
   {
     "Image Name": "notary",
     "Description": "Notary server and signer cooperatively handle signing and distribution of notary repositories.",
-    "Pulls": 6629344,
+    "Pulls": 6629587,
     "Stars Count": 74,
     "Tags": [
       "signer-0.7.0",
@@ -1972,7 +1972,7 @@
   {
     "Image Name": "piwik",
     "Description": "DEPRECATED; use \"matomo\" instead",
-    "Pulls": 20413452,
+    "Pulls": 20413684,
     "Stars Count": 194,
     "Tags": [
       "latest",
@@ -1993,7 +1993,7 @@
   {
     "Image Name": "elixir",
     "Description": "Elixir is a dynamic, functional language for building scalable and maintainable applications.",
-    "Pulls": 58954817,
+    "Pulls": 58965627,
     "Stars Count": 570,
     "Tags": [
       "slim",
@@ -2014,7 +2014,7 @@
   {
     "Image Name": "lightstreamer",
     "Description": "Lightstreamer is a real-time messaging server optimized for the Internet.",
-    "Pulls": 5886758,
+    "Pulls": 5887189,
     "Stars Count": 91,
     "Tags": [
       "latest",
@@ -2035,7 +2035,7 @@
   {
     "Image Name": "orientdb",
     "Description": "OrientDB a Multi-Model Open Source NoSQL DBMS that combines graphs and documents.",
-    "Pulls": 15242893,
+    "Pulls": 15243205,
     "Stars Count": 188,
     "Tags": [
       "latest",
@@ -2056,7 +2056,7 @@
   {
     "Image Name": "mongo-express",
     "Description": "Web-based MongoDB admin interface, written with Node.js and express",
-    "Pulls": 249293882,
+    "Pulls": 249333776,
     "Stars Count": 1473,
     "Tags": [
       "latest",
@@ -2077,8 +2077,8 @@
   {
     "Image Name": "traefik",
     "Description": "Traefik, The Cloud Native Edge Router",
-    "Pulls": 3315928819,
-    "Stars Count": 3339,
+    "Pulls": 3316088650,
+    "Stars Count": 3340,
     "Tags": [
       "v3.1.7-nanoserver-ltsc2022",
       "v3.1-nanoserver-ltsc2022",
@@ -2098,7 +2098,7 @@
   {
     "Image Name": "backdrop",
     "Description": "The comprehensive CMS for small to medium sized businesses and non-profits.",
-    "Pulls": 7018913,
+    "Pulls": 7019081,
     "Stars Count": 116,
     "Tags": [
       "latest",
@@ -2119,7 +2119,7 @@
   {
     "Image Name": "consul",
     "Description": "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration.",
-    "Pulls": 1040227420,
+    "Pulls": 1040253751,
     "Stars Count": 1443,
     "Tags": [
       "1.15.4",
@@ -2140,7 +2140,7 @@
   {
     "Image Name": "chronograf",
     "Description": "Chronograf is a visualization tool for time series data in InfluxDB.",
-    "Pulls": 155422812,
+    "Pulls": 155424738,
     "Stars Count": 365,
     "Tags": [
       "latest",
@@ -2161,7 +2161,7 @@
   {
     "Image Name": "influxdb",
     "Description": "InfluxDB is the open source time series database built for real-time analytic workloads.",
-    "Pulls": 1058963983,
+    "Pulls": 1059053791,
     "Stars Count": 1919,
     "Tags": [
       "latest",
@@ -2182,7 +2182,7 @@
   {
     "Image Name": "kapacitor",
     "Description": "Kapacitor is an open source framework for processing, monitoring, and alerting on time series data.",
-    "Pulls": 58667707,
+    "Pulls": 58668703,
     "Stars Count": 264,
     "Tags": [
       "latest",
@@ -2203,7 +2203,7 @@
   {
     "Image Name": "telegraf",
     "Description": "Telegraf is an agent for collecting metrics and writing them to InfluxDB or other outputs.",
-    "Pulls": 605278620,
+    "Pulls": 605311136,
     "Stars Count": 685,
     "Tags": [
       "latest",
@@ -2224,7 +2224,7 @@
   {
     "Image Name": "hello-seattle",
     "Description": "Hello from DockerCon 2016 (Seattle)!",
-    "Pulls": 4991817,
+    "Pulls": 4991849,
     "Stars Count": 14,
     "Tags": [
       "latest",
@@ -2243,7 +2243,7 @@
   {
     "Image Name": "hola-mundo",
     "Description": "\u00a1Hola de DockerCon EU 2015 (Barcelona)!",
-    "Pulls": 1463608,
+    "Pulls": 1463629,
     "Stars Count": 11,
     "Tags": [
       "latest",
@@ -2262,7 +2262,7 @@
   {
     "Image Name": "fsharp",
     "Description": "DEPRECATED; use https://hub.docker.com/_/microsoft-dotnet-sdk/",
-    "Pulls": 2931288,
+    "Pulls": 2931297,
     "Stars Count": 86,
     "Tags": [
       "latest",
@@ -2283,7 +2283,7 @@
   {
     "Image Name": "spiped",
     "Description": "Spiped is a utility for creating symmetrically encrypted and authenticated pipes between sockets.",
-    "Pulls": 3156909,
+    "Pulls": 3157104,
     "Stars Count": 65,
     "Tags": [
       "latest",
@@ -2304,7 +2304,7 @@
   {
     "Image Name": "vault",
     "Description": "Vault is a tool for securely accessing secrets via a unified interface and tight access control.",
-    "Pulls": 543392136,
+    "Pulls": 543415173,
     "Stars Count": 1135,
     "Tags": [
       "1.13.3",
@@ -2325,7 +2325,7 @@
   {
     "Image Name": "clearlinux",
     "Description": "Official docker build of Clear Linux OS for Intel Architecture",
-    "Pulls": 6876146,
+    "Pulls": 6876258,
     "Stars Count": 177,
     "Tags": [
       "latest",
@@ -2338,7 +2338,7 @@
   {
     "Image Name": "eggdrop",
     "Description": "The official Docker image of Eggdrop- IRC's oldest actively-developed bot!",
-    "Pulls": 2827133,
+    "Pulls": 2827271,
     "Stars Count": 81,
     "Tags": [
       "latest",
@@ -2359,7 +2359,7 @@
   {
     "Image Name": "ibmjava",
     "Description": "Official IBM\u00ae SDK, Java\u2122 Technology Edition Docker Image.",
-    "Pulls": 13169701,
+    "Pulls": 13170027,
     "Stars Count": 127,
     "Tags": [
       "latest",
@@ -2380,28 +2380,28 @@
   {
     "Image Name": "openjdk",
     "Description": "Pre-release / non-production builds of OpenJDK",
-    "Pulls": 2552216088,
+    "Pulls": 2552361786,
     "Stars Count": 3980,
     "Tags": [
-      "24-slim-bullseye",
-      "24-slim-bookworm",
-      "24-slim",
       "24-oraclelinux9",
-      "24-oraclelinux8",
       "24-oracle",
-      "24-nanoserver-1809",
-      "24-nanoserver",
-      "24-jdk-slim-bullseye",
-      "24-jdk-slim-bookworm"
+      "24-jdk-oraclelinux9",
+      "24-jdk-oracle",
+      "24-jdk",
+      "24-ea-oraclelinux9",
+      "24-ea-oracle",
+      "24-ea-jdk-oraclelinux9",
+      "24-ea-jdk-oracle",
+      "24-ea-jdk"
     ],
     "By": "library",
-    "Last Updated": "2024-11-05T04:24:42.437062Z",
+    "Last Updated": "2024-11-07T01:24:18.766461Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "kong",
     "Description": "The Cloud-Native API Gateway for APIs and Microservices",
-    "Pulls": 334199708,
+    "Pulls": 334223813,
     "Stars Count": 804,
     "Tags": [
       "latest",
@@ -2422,7 +2422,7 @@
   {
     "Image Name": "zookeeper",
     "Description": "Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination.",
-    "Pulls": 317513951,
+    "Pulls": 317565246,
     "Stars Count": 1459,
     "Tags": [
       "latest",
@@ -2443,7 +2443,7 @@
   {
     "Image Name": "nats-streaming",
     "Description": "DEPRECATED; An open-source, high-performance, cloud native messaging streaming system.",
-    "Pulls": 99620305,
+    "Pulls": 99625760,
     "Stars Count": 167,
     "Tags": [
       "latest",
@@ -2464,7 +2464,7 @@
   {
     "Image Name": "storm",
     "Description": "Apache Storm is a free and open source distributed realtime computation system.",
-    "Pulls": 9073736,
+    "Pulls": 9074017,
     "Stars Count": 200,
     "Tags": [
       "latest",
@@ -2485,7 +2485,7 @@
   {
     "Image Name": "plone",
     "Description": "Plone is a free and open source content management system built on top of Zope.",
-    "Pulls": 6679035,
+    "Pulls": 6679206,
     "Stars Count": 99,
     "Tags": [
       "latest",
@@ -2506,8 +2506,8 @@
   {
     "Image Name": "bash",
     "Description": "Bash is the GNU Project's Bourne Again SHell",
-    "Pulls": 456748217,
-    "Stars Count": 668,
+    "Pulls": 456920059,
+    "Stars Count": 669,
     "Tags": [
       "devel-alpine3.20",
       "devel-20241104-alpine3.20",
@@ -2527,8 +2527,8 @@
   {
     "Image Name": "amazonlinux",
     "Description": "Amazon Linux provides a stable, secure, and high-performance execution environment for applications.",
-    "Pulls": 893460410,
-    "Stars Count": 1435,
+    "Pulls": 893565225,
+    "Stars Count": 1437,
     "Tags": [
       "latest",
       "2023.6.20241010.0",
@@ -2548,7 +2548,7 @@
   {
     "Image Name": "composer",
     "Description": "Composer is a dependency manager written in and for PHP.",
-    "Pulls": 167172267,
+    "Pulls": 167254729,
     "Stars Count": 1094,
     "Tags": [
       "latest",
@@ -2569,7 +2569,7 @@
   {
     "Image Name": "known",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 1362193,
+    "Pulls": 1362254,
     "Stars Count": 48,
     "Tags": [
       "latest",
@@ -2585,8 +2585,8 @@
   {
     "Image Name": "eclipse-mosquitto",
     "Description": "Eclipse Mosquitto is an open source message broker which implements MQTT version 5, 3.1.1 and 3.1",
-    "Pulls": 624249886,
-    "Stars Count": 1284,
+    "Pulls": 624292656,
+    "Stars Count": 1286,
     "Tags": [
       "latest",
       "openssl",
@@ -2606,7 +2606,7 @@
   {
     "Image Name": "nextcloud",
     "Description": "Nextcloud manual docker image",
-    "Pulls": 960433261,
+    "Pulls": 960542930,
     "Stars Count": 4197,
     "Tags": [
       "stable-fpm-alpine",
@@ -2627,7 +2627,7 @@
   {
     "Image Name": "silverpeas",
     "Description": "Silverpeas is a turnkey and open-source Collaborative and Social-Networking Portal.",
-    "Pulls": 1905790,
+    "Pulls": 1905960,
     "Stars Count": 47,
     "Tags": [
       "latest",
@@ -2648,7 +2648,7 @@
   {
     "Image Name": "swift",
     "Description": "Swift is a high-performance system programming language, to learn more about Swift visit swift.org.",
-    "Pulls": 27170617,
+    "Pulls": 27174737,
     "Stars Count": 702,
     "Tags": [
       "fedora39",
@@ -2669,7 +2669,7 @@
   {
     "Image Name": "haxe",
     "Description": "Haxe is a modern, high level, static typed programming language with multiple compilation targets.",
-    "Pulls": 24771609,
+    "Pulls": 24772030,
     "Stars Count": 62,
     "Tags": [
       "latest",
@@ -2690,7 +2690,7 @@
   {
     "Image Name": "rapidoid",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 2699192,
+    "Pulls": 2699203,
     "Stars Count": 27,
     "Tags": [
       "latest",
@@ -2711,7 +2711,7 @@
   {
     "Image Name": "adminer",
     "Description": "DEPRECATED; Database management in a single PHP file.",
-    "Pulls": 376245978,
+    "Pulls": 376269305,
     "Stars Count": 931,
     "Tags": [
       "latest",
@@ -2732,7 +2732,7 @@
   {
     "Image Name": "geonetwork",
     "Description": "GeoNetwork is a FOSS catalog for spatially referenced resources.",
-    "Pulls": 5315578,
+    "Pulls": 5315830,
     "Stars Count": 87,
     "Tags": [
       "latest",
@@ -2753,7 +2753,7 @@
   {
     "Image Name": "xwiki",
     "Description": "XWiki: The Advanced Open Source Enterprise Wiki.",
-    "Pulls": 32768266,
+    "Pulls": 32769516,
     "Stars Count": 306,
     "Tags": [
       "16.4.5-postgres-tomcat",
@@ -2774,7 +2774,7 @@
   {
     "Image Name": "groovy",
     "Description": "Apache Groovy is a multi-faceted language for the Java platform.",
-    "Pulls": 77270162,
+    "Pulls": 77271032,
     "Stars Count": 153,
     "Tags": [
       "latest",
@@ -2795,7 +2795,7 @@
   {
     "Image Name": "znc",
     "Description": "ZNC - An advanced IRC bouncer",
-    "Pulls": 28327102,
+    "Pulls": 28327299,
     "Stars Count": 117,
     "Tags": [
       "latest",
@@ -2816,28 +2816,28 @@
   {
     "Image Name": "gradle",
     "Description": "Gradle is a build tool with a focus on build automation and support for multi-language development.",
-    "Pulls": 252580469,
+    "Pulls": 252657610,
     "Stars Count": 595,
     "Tags": [
-      "jdk23-jammy",
-      "jdk23",
-      "8.10.2-jdk23-jammy",
-      "8.10.2-jdk23",
-      "8.10-jdk23-jammy",
-      "8.10-jdk23",
-      "8-jdk23-jammy",
-      "8-jdk23",
-      "6.9.4-jdk11-focal",
-      "6.9-jdk11-focal"
+      "jdk8-corretto-al2023",
+      "jdk8-corretto",
+      "jdk23-corretto",
+      "jdk21-corretto-al2023",
+      "jdk21-corretto",
+      "jdk17-corretto-al2023",
+      "jdk17-corretto",
+      "jdk11-corretto-al2023",
+      "jdk11-corretto",
+      "jdk-lts-and-current-corretto-al2023"
     ],
     "By": "library",
-    "Last Updated": "2024-10-24T23:21:52.423939Z",
+    "Last Updated": "2024-11-07T00:23:12.712251Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "convertigo",
     "Description": "Enterprise grade full-stack Open source Low Code & No Code Platform for web & mobile application",
-    "Pulls": 4292136,
+    "Pulls": 4292295,
     "Stars Count": 57,
     "Tags": [
       "latest",
@@ -2858,7 +2858,7 @@
   {
     "Image Name": "flink",
     "Description": "Apache Flink\u00ae is a powerful open-source distributed stream and batch processing framework.",
-    "Pulls": 90516340,
+    "Pulls": 90522559,
     "Stars Count": 435,
     "Tags": [
       "latest",
@@ -2879,7 +2879,7 @@
   {
     "Image Name": "swipl",
     "Description": "SWI-Prolog offers a comprehensive free Prolog environment.",
-    "Pulls": 3101933,
+    "Pulls": 3102075,
     "Stars Count": 69,
     "Tags": [
       "latest",
@@ -2900,7 +2900,7 @@
   {
     "Image Name": "rust",
     "Description": "Rust is a systems programming language focused on safety, speed, and concurrency.",
-    "Pulls": 90687604,
+    "Pulls": 90717020,
     "Stars Count": 1032,
     "Tags": [
       "latest",
@@ -2921,7 +2921,7 @@
   {
     "Image Name": "mediawiki",
     "Description": "MediaWiki is a free software open source wiki package written in PHP.",
-    "Pulls": 45285359,
+    "Pulls": 45286919,
     "Stars Count": 563,
     "Tags": [
       "latest",
@@ -2942,7 +2942,7 @@
   {
     "Image Name": "euleros",
     "Description": "DEPRECATED; lacking active maintainer",
-    "Pulls": 718195,
+    "Pulls": 718199,
     "Stars Count": 34,
     "Tags": [
       "latest",
@@ -2958,7 +2958,7 @@
   {
     "Image Name": "sl",
     "Description": "DEPRECATED; Official containers for Scientific Linux(SL)",
-    "Pulls": 607262,
+    "Pulls": 607278,
     "Stars Count": 55,
     "Tags": [
       "latest",
@@ -2972,7 +2972,7 @@
   {
     "Image Name": "open-liberty",
     "Description": "Open Liberty multi-architecture images based on Ubuntu",
-    "Pulls": 13181777,
+    "Pulls": 13184867,
     "Stars Count": 69,
     "Tags": [
       "latest",
@@ -2987,13 +2987,13 @@
       "beta-java17"
     ],
     "By": "library",
-    "Last Updated": "2024-11-05T03:51:27.475546Z",
+    "Last Updated": "2024-11-07T00:48:05.598229Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "clefos",
     "Description": "DEPRECATED; The official build of ClefOS.",
-    "Pulls": 783187,
+    "Pulls": 783310,
     "Stars Count": 23,
     "Tags": [
       "latest",
@@ -3010,7 +3010,7 @@
   {
     "Image Name": "teamspeak",
     "Description": "TeamSpeak is software for quality voice communication via the Internet.",
-    "Pulls": 134683881,
+    "Pulls": 134685810,
     "Stars Count": 555,
     "Tags": [
       "latest",
@@ -3031,7 +3031,7 @@
   {
     "Image Name": "matomo",
     "Description": "Matomo is the leading open-source analytics platform that gives you more than powerful analytics.",
-    "Pulls": 125131079,
+    "Pulls": 125139655,
     "Stars Count": 339,
     "Tags": [
       "latest",
@@ -3052,7 +3052,7 @@
   {
     "Image Name": "yourls",
     "Description": "YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener.",
-    "Pulls": 21635407,
+    "Pulls": 21637824,
     "Stars Count": 301,
     "Tags": [
       "latest",
@@ -3073,7 +3073,7 @@
   {
     "Image Name": "alt",
     "Description": "The official build of ALT Linux.",
-    "Pulls": 740733,
+    "Pulls": 740902,
     "Stars Count": 64,
     "Tags": [
       "latest",
@@ -3090,7 +3090,7 @@
   {
     "Image Name": "amazoncorretto",
     "Description": "Corretto is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK).",
-    "Pulls": 97976367,
+    "Pulls": 98046965,
     "Stars Count": 429,
     "Tags": [
       "8u432-al2023-jre",
@@ -3111,7 +3111,7 @@
   {
     "Image Name": "express-gateway",
     "Description": "DEPRECATED; The Official Docker Image of Express Gateway, an API Gateway for APIs and Microservices",
-    "Pulls": 2458418,
+    "Pulls": 2458503,
     "Stars Count": 75,
     "Tags": [
       "latest",
@@ -3132,7 +3132,7 @@
   {
     "Image Name": "postfixadmin",
     "Description": "Postfix Admin - web based administration interface for Postfix mail servers.",
-    "Pulls": 5352463,
+    "Pulls": 5352800,
     "Stars Count": 203,
     "Tags": [
       "latest",
@@ -3153,8 +3153,8 @@
   {
     "Image Name": "fluentd",
     "Description": "Fluentd is an open source data collector for unified logging layer",
-    "Pulls": 11814672,
-    "Stars Count": 198,
+    "Pulls": 11817015,
+    "Stars Count": 199,
     "Tags": [
       "latest",
       "v1.17.1-debian-1.0",
@@ -3174,7 +3174,7 @@
   {
     "Image Name": "adoptopenjdk",
     "Description": "DEPRECATED; use https://hub.docker.com/_/eclipse-temurin/",
-    "Pulls": 100414410,
+    "Pulls": 100418346,
     "Stars Count": 376,
     "Tags": [
       "latest",
@@ -3195,7 +3195,7 @@
   {
     "Image Name": "sapmachine",
     "Description": "Official SapMachine Docker Image, SAP's build of OpenJDK.",
-    "Pulls": 22910163,
+    "Pulls": 22912835,
     "Stars Count": 51,
     "Tags": [
       "21-jdk-headless-ubuntu-focal",
@@ -3216,7 +3216,7 @@
   {
     "Image Name": "varnish",
     "Description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs.",
-    "Pulls": 17959713,
+    "Pulls": 17967492,
     "Stars Count": 174,
     "Tags": [
       "latest",
@@ -3237,7 +3237,7 @@
   {
     "Image Name": "jobber",
     "Description": "DEPRECATED; Jobber is an alternative to cron, with sophisticated status-reporting and error-handling",
-    "Pulls": 696422,
+    "Pulls": 696439,
     "Stars Count": 47,
     "Tags": [
       "latest",
@@ -3256,8 +3256,8 @@
   {
     "Image Name": "archlinux",
     "Description": "Arch Linux is a simple, lightweight Linux distribution aimed for flexibility.",
-    "Pulls": 27668757,
-    "Stars Count": 586,
+    "Pulls": 27673243,
+    "Stars Count": 587,
     "Tags": [
       "latest",
       "multilib-devel-20241103.0.276161",
@@ -3277,7 +3277,7 @@
   {
     "Image Name": "friendica",
     "Description": "Welcome to the free social web.",
-    "Pulls": 5057723,
+    "Pulls": 5058195,
     "Stars Count": 102,
     "Tags": [
       "stable-fpm-alpine",
@@ -3298,28 +3298,28 @@
   {
     "Image Name": "caddy",
     "Description": "Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.",
-    "Pulls": 639416970,
+    "Pulls": 639459694,
     "Stars Count": 805,
     "Tags": [
       "builder-windowsservercore-ltsc2022",
       "builder-windowsservercore-1809",
+      "builder-alpine",
       "builder",
-      "2.8.4-builder-windowsservercore-ltsc2022",
-      "2.8.4-builder-windowsservercore-1809",
-      "2.8.4-builder",
-      "2.8-builder-windowsservercore-ltsc2022",
-      "2.8-builder-windowsservercore-1809",
-      "2.8-builder",
-      "2-builder-windowsservercore-ltsc2022"
+      "2.9.0-beta.3-windowsservercore-ltsc2022",
+      "2.9.0-beta.3-windowsservercore-1809",
+      "2.9.0-beta.3-windowsservercore",
+      "2.9.0-beta.3-builder-windowsservercore-ltsc2022",
+      "2.9.0-beta.3-builder-windowsservercore-1809",
+      "2.9.0-beta.3-builder-alpine"
     ],
     "By": "library",
-    "Last Updated": "2024-10-10T03:53:01.10397Z",
+    "Last Updated": "2024-11-06T22:55:02.780856Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "monica",
     "Description": "Monica \u2013 the Personal Relationship Manager.",
-    "Pulls": 11656892,
+    "Pulls": 11659065,
     "Stars Count": 202,
     "Tags": [
       "latest",
@@ -3340,7 +3340,7 @@
   {
     "Image Name": "phpmyadmin",
     "Description": "phpMyAdmin - A web interface for MySQL and MariaDB.",
-    "Pulls": 68719734,
+    "Pulls": 68739664,
     "Stars Count": 1042,
     "Tags": [
       "latest",
@@ -3361,7 +3361,7 @@
   {
     "Image Name": "hitch",
     "Description": "Hitch is a libev-based high performance SSL/TLS proxy by Varnish Software.",
-    "Pulls": 460438,
+    "Pulls": 460596,
     "Stars Count": 25,
     "Tags": [
       "latest",
@@ -3382,7 +3382,7 @@
   {
     "Image Name": "almalinux",
     "Description": "The official build of AlmaLinux OS.",
-    "Pulls": 8016082,
+    "Pulls": 8022296,
     "Stars Count": 175,
     "Tags": [
       "latest",
@@ -3403,7 +3403,7 @@
   {
     "Image Name": "dart",
     "Description": "Dart is a client-optimized language for fast apps on any platform.",
-    "Pulls": 2438504,
+    "Pulls": 2439612,
     "Stars Count": 153,
     "Tags": [
       "latest",
@@ -3424,7 +3424,7 @@
   {
     "Image Name": "eclipse-temurin",
     "Description": "Official Images for OpenJDK binaries built by Eclipse Temurin.",
-    "Pulls": 165563892,
+    "Pulls": 165710386,
     "Stars Count": 606,
     "Tags": [
       "23.0.1_11-jre-ubi9-minimal",
@@ -3445,7 +3445,7 @@
   {
     "Image Name": "ibm-semeru-runtimes",
     "Description": "IBM Semeru Runtimes Official Images for OpenJDK and Eclipse OpenJ9 binaries.",
-    "Pulls": 6187634,
+    "Pulls": 6194494,
     "Stars Count": 52,
     "Tags": [
       "open-21.0.4.1_7-jre-jammy",
@@ -3466,7 +3466,7 @@
   {
     "Image Name": "rockylinux",
     "Description": "The official build of Rocky Linux.",
-    "Pulls": 35291942,
+    "Pulls": 35305020,
     "Stars Count": 262,
     "Tags": [
       "9.3.20231119-minimal",
@@ -3487,7 +3487,7 @@
   {
     "Image Name": "api-firewall",
     "Description": "A light-weighted API Firewall to protect your API endpoints with API Schema validation.",
-    "Pulls": 49030,
+    "Pulls": 49126,
     "Stars Count": 52,
     "Tags": [
       "latest",
@@ -3508,7 +3508,7 @@
   {
     "Image Name": "emqx",
     "Description": "The most scalable open-source MQTT broker for IoT, IIoT, connected vehicles, and more.",
-    "Pulls": 2681510,
+    "Pulls": 2683075,
     "Stars Count": 90,
     "Tags": [
       "latest",
@@ -3529,7 +3529,7 @@
   {
     "Image Name": "satosa",
     "Description": "SATOSA translates between authentication protocols such as SAML2, OpenID Connect, and OAuth2.",
-    "Pulls": 372162,
+    "Pulls": 372423,
     "Stars Count": 13,
     "Tags": [
       "latest",
@@ -3550,7 +3550,7 @@
   {
     "Image Name": "unit",
     "Description": "Official build of NGINX Unit: Universal Web App Server",
-    "Pulls": 622687,
+    "Pulls": 623892,
     "Stars Count": 38,
     "Tags": [
       "ruby3.3",
@@ -3571,7 +3571,7 @@
   {
     "Image Name": "spark",
     "Description": "Apache Spark - A unified analytics engine for large-scale data processing",
-    "Pulls": 513657,
+    "Pulls": 514982,
     "Stars Count": 77,
     "Tags": [
       "3.4.4-scala2.12-java11-ubuntu",
@@ -3592,7 +3592,7 @@
   {
     "Image Name": "liquibase",
     "Description": "Liquibase is DevOps for your database.",
-    "Pulls": 47338,
+    "Pulls": 48424,
     "Stars Count": 5,
     "Tags": [
       "latest",
@@ -3613,7 +3613,7 @@
   {
     "Image Name": "unit",
     "Description": "This repository is retired, use the Docker official images: https://hub.docker.com/_/unit",
-    "Pulls": 12169810,
+    "Pulls": 12170080,
     "Stars Count": 64,
     "Tags": [
       "1.29.1-minimal",
@@ -3634,28 +3634,28 @@
   {
     "Image Name": "nginx-ingress",
     "Description": "NGINX and  NGINX Plus Ingress Controllers for Kubernetes",
-    "Pulls": 1079599917,
+    "Pulls": 1079611872,
     "Stars Count": 96,
     "Tags": [
-      "edge-alpine",
-      "edge-ubi",
-      "edge",
-      "3.7.0-20241103-alpine",
       "3.7-alpine",
+      "3.7.1-alpine",
       "latest-alpine",
-      "3.7.0-alpine",
+      "3.7.1-20241106-alpine",
+      "latest-ubi",
       "3.7-ubi",
-      "3.7.0-20241103-ubi",
-      "3.7.0-ubi"
+      "3.7.1-ubi",
+      "3.7.1-20241106-ubi",
+      "3.7",
+      "3.7.1"
     ],
     "By": "nginx",
-    "Last Updated": "2024-11-06T02:00:11.337024Z",
+    "Last Updated": "2024-11-06T17:20:40.608327Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "nginx-prometheus-exporter",
     "Description": "NGINX Prometheus Exporter for NGINX and NGINX Plus",
-    "Pulls": 80758788,
+    "Pulls": 80770044,
     "Stars Count": 43,
     "Tags": [
       "latest",
@@ -3670,13 +3670,13 @@
       "1.1.0"
     ],
     "By": "nginx",
-    "Last Updated": "2024-11-05T23:26:29.6631Z",
+    "Last Updated": "2024-11-06T09:25:18.529004Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "nginx-quic-qns",
     "Description": "NGINX QUIC interop",
-    "Pulls": 16146,
+    "Pulls": 16153,
     "Stars Count": 1,
     "Tags": [
       "latest"
@@ -3688,10 +3688,11 @@
   {
     "Image Name": "nginx-ingress-operator",
     "Description": "NGINX Ingress Operator for NGINX and NGINX Plus Ingress Controllers. Based on the Helm chart for NGI",
-    "Pulls": 1050234,
+    "Pulls": 1050571,
     "Stars Count": 2,
     "Tags": [
       "latest",
+      "2.4.1",
       "edge",
       "2.4.0",
       "2.3.2",
@@ -3699,17 +3700,16 @@
       "2.3.0",
       "2.2.2",
       "2.2.1",
-      "2.2.0",
-      "2.1.2"
+      "2.2.0"
     ],
     "By": "nginx",
-    "Last Updated": "2024-10-25T08:18:31.920651Z",
+    "Last Updated": "2024-11-06T18:09:00.946984Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "docker-extension",
     "Description": "",
-    "Pulls": 144439,
+    "Pulls": 144483,
     "Stars Count": 0,
     "Tags": [
       "0.0.3",
@@ -3735,7 +3735,7 @@
   {
     "Image Name": "nginxaas-loadbalancer-kubernetes",
     "Description": "",
-    "Pulls": 965,
+    "Pulls": 1002,
     "Stars Count": 0,
     "Tags": [
       "0.6.0",
@@ -3753,7 +3753,7 @@
   {
     "Image Name": "mysql-server",
     "Description": "Optimized MySQL Server Docker images. Created, maintained and supported by the MySQL team at Oracle",
-    "Pulls": 156039088,
+    "Pulls": 156072440,
     "Stars Count": 1023,
     "Tags": [
       "latest",
@@ -3774,7 +3774,7 @@
   {
     "Image Name": "mysql-cluster",
     "Description": "Experimental MySQL Cluster Docker images. Created by the MySQL team at Oracle",
-    "Pulls": 7707355,
+    "Pulls": 7707390,
     "Stars Count": 100,
     "Tags": [
       "latest",
@@ -3795,7 +3795,7 @@
   {
     "Image Name": "mysql-router",
     "Description": "MySQL Router provides transparent routing between your application and back-end MySQL Servers.",
-    "Pulls": 9262135,
+    "Pulls": 9263430,
     "Stars Count": 28,
     "Tags": [
       "latest",
@@ -3816,7 +3816,7 @@
   {
     "Image Name": "mysql-operator",
     "Description": "MySQL Operator for Kubernetes",
-    "Pulls": 541350,
+    "Pulls": 541364,
     "Stars Count": 1,
     "Tags": [
       "latest",
@@ -3837,7 +3837,7 @@
   {
     "Image Name": "ndb-operator",
     "Description": "MySQL NDB Operator for Kubernetes",
-    "Pulls": 5866,
+    "Pulls": 5869,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -3858,7 +3858,7 @@
   {
     "Image Name": "httpie",
     "Description": "Auto-trigger docker build for `httpie` when new release is announced",
-    "Pulls": 17081144,
+    "Pulls": 17081789,
     "Stars Count": 19,
     "Tags": [
       "latest",
@@ -3873,13 +3873,13 @@
       "2.5.0"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:10:17.027319Z",
+    "Last Updated": "2024-11-06T05:25:52.575191Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "socat",
     "Description": "Run socat command in alpine container",
-    "Pulls": 56115565,
+    "Pulls": 56147952,
     "Stars Count": 102,
     "Tags": [
       "latest",
@@ -3894,13 +3894,13 @@
       "1.7.4.1-r0"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:06:56.015404Z",
+    "Last Updated": "2024-11-06T05:22:29.248496Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "git",
     "Description": "A  simple git container running in alpine linux, especially for tiny linux distro.",
-    "Pulls": 391918353,
+    "Pulls": 391953166,
     "Stars Count": 234,
     "Tags": [
       "latest",
@@ -3921,7 +3921,7 @@
   {
     "Image Name": "flake8",
     "Description": "Auto-trigger docker build for fake8 via ci cronjob",
-    "Pulls": 1664655,
+    "Pulls": 1665897,
     "Stars Count": 2,
     "Tags": [
       "latest",
@@ -3936,13 +3936,13 @@
       "5.0.0"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:13:16.026225Z",
+    "Last Updated": "2024-11-06T05:28:52.259368Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "bombardier",
     "Description": "Auto-trigger docker build for bombardier when new release is announced",
-    "Pulls": 16812473,
+    "Pulls": 16812544,
     "Stars Count": 26,
     "Tags": [
       "latest",
@@ -3984,7 +3984,7 @@
   {
     "Image Name": "node",
     "Description": "",
-    "Pulls": 36900,
+    "Pulls": 36913,
     "Stars Count": 5,
     "Tags": [
       "latest"
@@ -3996,7 +3996,7 @@
   {
     "Image Name": "bundle",
     "Description": "This repository has been archived by the owner on Jun 30, 2023. It is now read-only.",
-    "Pulls": 129549,
+    "Pulls": 129568,
     "Stars Count": 1,
     "Tags": [
       "latest",
@@ -4031,7 +4031,7 @@
   {
     "Image Name": "helm",
     "Description": "Auto-trigger docker build for kubernetes helm when new release is announced",
-    "Pulls": 52452024,
+    "Pulls": 52472327,
     "Stars Count": 67,
     "Tags": [
       "latest",
@@ -4052,7 +4052,7 @@
   {
     "Image Name": "make",
     "Description": "a simple container to run make command directly",
-    "Pulls": 40474,
+    "Pulls": 40476,
     "Stars Count": 1,
     "Tags": [
       "latest",
@@ -4066,7 +4066,7 @@
   {
     "Image Name": "semver",
     "Description": "Docker tool for semantic versioning",
-    "Pulls": 311302,
+    "Pulls": 311571,
     "Stars Count": 4,
     "Tags": [
       "latest",
@@ -4095,7 +4095,7 @@
   {
     "Image Name": "terragrunt",
     "Description": "Auto-trigger docker build for terragrunt when new terraform version released",
-    "Pulls": 13883185,
+    "Pulls": 13887565,
     "Stars Count": 18,
     "Tags": [
       "latest",
@@ -4155,7 +4155,7 @@
   {
     "Image Name": "k8s",
     "Description": "Kubernetes toolbox for EKS (kubectl, helm, iam-authenticator, eksctl, etc)",
-    "Pulls": 31798146,
+    "Pulls": 31820768,
     "Stars Count": 57,
     "Tags": [
       "1.28.15",
@@ -4190,7 +4190,7 @@
   {
     "Image Name": "nikto",
     "Description": "Nikto is sponsored by Netsparker, a dead accurate and easy to use web application security solution.",
-    "Pulls": 14531,
+    "Pulls": 14540,
     "Stars Count": 2,
     "Tags": [
       "latest",
@@ -4205,7 +4205,7 @@
   {
     "Image Name": "xml",
     "Description": "several xml tools to work on xml file as jq to json. ",
-    "Pulls": 148656,
+    "Pulls": 148757,
     "Stars Count": 1,
     "Tags": [
       "latest",
@@ -4220,7 +4220,7 @@
   {
     "Image Name": "cfn-nag",
     "Description": "Auto-trigger docker build for cfn-nag when new release is announced",
-    "Pulls": 136870,
+    "Pulls": 136871,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4254,7 +4254,7 @@
   {
     "Image Name": "gcloud",
     "Description": "Auto-trigger docker build for gcloud (google cloud command line) when new release is announced",
-    "Pulls": 135715,
+    "Pulls": 135719,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4275,7 +4275,7 @@
   {
     "Image Name": "dfimage",
     "Description": "reverse Docker images into Dockerfiles",
-    "Pulls": 59834,
+    "Pulls": 59871,
     "Stars Count": 69,
     "Tags": [
       "latest",
@@ -4290,7 +4290,7 @@
   {
     "Image Name": "jmeter",
     "Description": "run jmeter in Docker",
-    "Pulls": 147223,
+    "Pulls": 147446,
     "Stars Count": 8,
     "Tags": [
       "latest",
@@ -4311,7 +4311,7 @@
   {
     "Image Name": "openssl",
     "Description": "openssl",
-    "Pulls": 3373900,
+    "Pulls": 3386738,
     "Stars Count": 4,
     "Tags": [
       "latest",
@@ -4322,13 +4322,13 @@
       "3.1.3"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:13:33.343233Z",
+    "Last Updated": "2024-11-06T05:29:09.248057Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "cfn-lint",
     "Description": "",
-    "Pulls": 50262,
+    "Pulls": 50268,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4365,7 +4365,7 @@
   {
     "Image Name": "ansible",
     "Description": "run ansible and ansible-playbook in docker",
-    "Pulls": 236074,
+    "Pulls": 236403,
     "Stars Count": 17,
     "Tags": [
       "latest",
@@ -4374,13 +4374,13 @@
       "2.14.5"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:11:59.518925Z",
+    "Last Updated": "2024-11-06T05:27:35.432952Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "demo-multi-arch",
     "Description": "",
-    "Pulls": 4123,
+    "Pulls": 4125,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4394,7 +4394,7 @@
   {
     "Image Name": "doctl",
     "Description": "DigitalOcean command line with kubernetes and helm",
-    "Pulls": 38379,
+    "Pulls": 38405,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4415,7 +4415,7 @@
   {
     "Image Name": "curl",
     "Description": "",
-    "Pulls": 29800499,
+    "Pulls": 29850496,
     "Stars Count": 6,
     "Tags": [
       "latest",
@@ -4430,13 +4430,13 @@
       "8.2.1"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:06:38.834126Z",
+    "Last Updated": "2024-11-06T05:22:12.469572Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "docker-with-buildx",
     "Description": "",
-    "Pulls": 5668,
+    "Pulls": 5687,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4478,20 +4478,20 @@
   {
     "Image Name": "links",
     "Description": "Links2 - Console portable web browser",
-    "Pulls": 2327,
+    "Pulls": 2344,
     "Stars Count": 0,
     "Tags": [
       "latest",
       "2.29"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:05:15.514757Z",
+    "Last Updated": "2024-11-06T05:20:48.50719Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "lynx",
     "Description": "LYNX \u2013 The Text Web-Browser",
-    "Pulls": 3226,
+    "Pulls": 3245,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4499,26 +4499,26 @@
       "2.8.9"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:05:31.036692Z",
+    "Last Updated": "2024-11-06T05:21:05.087733Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "mysql",
     "Description": "mysql client",
-    "Pulls": 105756,
+    "Pulls": 105854,
     "Stars Count": 3,
     "Tags": [
       "latest",
       "15.1"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:06:02.213112Z",
+    "Last Updated": "2024-11-06T05:21:34.69118Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "psql",
     "Description": "psql \u2014 The PostgreSQL Command-Line Client\n\n",
-    "Pulls": 22644,
+    "Pulls": 22871,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4530,13 +4530,13 @@
       "15.3"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:06:22.181992Z",
+    "Last Updated": "2024-11-06T05:21:54.796178Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "trivy",
     "Description": "",
-    "Pulls": 4243,
+    "Pulls": 4276,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4555,7 +4555,7 @@
   {
     "Image Name": "mongosh",
     "Description": "mongosh - MongoDB Command Line Database Tools",
-    "Pulls": 44652,
+    "Pulls": 45203,
     "Stars Count": 2,
     "Tags": [
       "latest",
@@ -4575,7 +4575,7 @@
   {
     "Image Name": "azure_cli",
     "Description": "A quick build to add terraform in it.",
-    "Pulls": 579,
+    "Pulls": 587,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4589,7 +4589,7 @@
   {
     "Image Name": "sqlite",
     "Description": "",
-    "Pulls": 3759,
+    "Pulls": 3796,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4598,13 +4598,13 @@
       "3.41.2"
     ],
     "By": "alpine",
-    "Last Updated": "2024-11-02T03:13:49.445576Z",
+    "Last Updated": "2024-11-06T05:29:26.05353Z",
     "Official Status": "Community"
   },
   {
     "Image Name": "pwgen",
     "Description": "password generator",
-    "Pulls": 3047,
+    "Pulls": 3064,
     "Stars Count": 0,
     "Tags": [
       "latest"
@@ -4616,7 +4616,7 @@
   {
     "Image Name": "crane",
     "Description": "",
-    "Pulls": 8028,
+    "Pulls": 8099,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4637,7 +4637,7 @@
   {
     "Image Name": "java",
     "Description": "Repo containing the build scripts to produce the official eclipse-temurin java containers",
-    "Pulls": 36142,
+    "Pulls": 36491,
     "Stars Count": 1,
     "Tags": [
       "22-jdk",
@@ -4658,7 +4658,7 @@
   {
     "Image Name": "bruno",
     "Description": "Bruno - Git-Friendly Opensource API client with collections version control",
-    "Pulls": 7944,
+    "Pulls": 8010,
     "Stars Count": 1,
     "Tags": [
       "latest",
@@ -4694,7 +4694,7 @@
   {
     "Image Name": "curl-http3",
     "Description": "A custom curl build with brotli, BoringSSL and http3 support (via quiche) in alpine image.\n\n",
-    "Pulls": 613,
+    "Pulls": 616,
     "Stars Count": 1,
     "Tags": [
       "latest",
@@ -4712,7 +4712,7 @@
   {
     "Image Name": "mkcert",
     "Description": "mkcert - a simple zero-config tool to make locally trusted certificates with any names you'd like.",
-    "Pulls": 290,
+    "Pulls": 298,
     "Stars Count": 0,
     "Tags": [
       "latest"
@@ -4724,7 +4724,7 @@
   {
     "Image Name": "used-for-docker-scout-score-check-only",
     "Description": "There are no useful tools in this image; its sole purpose is to test the Docker Scout score",
-    "Pulls": 1784,
+    "Pulls": 1785,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4757,7 +4757,7 @@
   {
     "Image Name": "ollama",
     "Description": "Minimal CPU-only Ollama Docker Image",
-    "Pulls": 397,
+    "Pulls": 419,
     "Stars Count": 0,
     "Tags": [
       "latest",
@@ -4772,7 +4772,7 @@
   {
     "Image Name": "llama3.2",
     "Description": "ollama with module llama3.2",
-    "Pulls": 341,
+    "Pulls": 346,
     "Stars Count": 2,
     "Tags": [
       "latest",
